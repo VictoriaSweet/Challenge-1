@@ -16,7 +16,7 @@ body {
 }
 
 .header h1 {
-    display: inline-block;
+    display: flex;
     font-size: 48px;
 }
 
@@ -37,13 +37,14 @@ body {
 }
 
 .header div ul li {
-    display: inline-block;
+    display: flex;
     margin-left: 25px;
 }
 
 a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
+    justify-content:flex-start;
 }
 
 p {
@@ -71,7 +72,7 @@ p {
 
 .content {
     width: 75%;
-    display: inline-block;
+    display: flex;
     margin-left: 20px;
 }
 
@@ -118,19 +119,19 @@ p {
 
 .benefit-lead img {
     display: block;
-    margin: 10px auto;
+    margin: 10px;
     max-width: 150px;
 }
 
 .benefit-brand img {
     display: block;
-    margin: 10px auto;
+    margin: 10px;
     max-width: 150px;
 }
 
 .benefit-cost img {
     display: block;
-    margin: 10px auto;
+    margin: 10px;
     max-width: 150px;
 }
 
