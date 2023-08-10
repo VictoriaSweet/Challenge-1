@@ -14,3 +14,7 @@ N/A
 
 ## License
 MIT
+
+<a href="https://victoriasweet.github.io/Challenge-1/Develop/">Link to deployed URL</a>
+
+![screenshot of deployed URL](./screenshot.png?raw=true "Screenshot of deployed URL")
