@@ -13,10 +13,11 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header h1 {
-    display: inline-block;
     font-size: 48px;
 }
 
@@ -29,6 +30,11 @@ header.header {
     margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    width: 100%;
+}
+
+header.header nav {
+    margin-top: 20px;
 }
 
 header.header ul {
@@ -37,8 +43,7 @@ header.header ul {
 
 header.header ul li {
     display: inline-block;
-    margin-left: 25px;
-
+    margin-left: 25px;  
 }
 
 a {
